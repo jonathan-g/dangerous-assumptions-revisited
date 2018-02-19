@@ -1,46 +1,247 @@
 Introduction
 ============
 
-This analysis follows the methods of Roger Pielke, Jr., Tom Wigley, and
-Christopher Green, “Dangerous Assumptions,” *Nature* **452**, 531 (2008)
-<https://www-nature-com/articles/452531a> and Samantha Stevenson and
-Roger Pielke, Jr., “Assumptions of Spontaneous Decarbonization in the
-IPCC AR5 Baseline Scenarios,”
-<https://pdfs.semanticscholar.org/0aef/69f0117b6f4e1d2926e1acaa6db7af963924.pdf>
+Background and the Kaya Identity
+--------------------------------
 
-However, in the previous work, the observed historical trend was taken
-from 2000–2005 and 2000–2008, respectively, which may not be the best
-choice. World carbon intensity steadily declined from 1965–2000 and then
-suddenly jumped from around 2000–2007 and then began to fall again:
+In 2000, the Intergovernmental Panel on Climate Change published a
+[Special Report on Emissions
+Scenarios](http://www.ipcc.ch/ipccreports/sres/emission/), in which it
+developed many possible scenarios for the paths that greenhouse gas
+emissions might follow during the 21st century under “Business as Usual”
+(BAU) conditions, meaning without any policy measures to reduce
+emissions.
+
+Different scenarios made different assumptions about population growth,
+economic development, and technological innovation and thus produced a
+diverse range of emissions pathways. The hope was that the actual
+emissions path that the world would follow in the 21st century would lie
+somewhere within this range.
+
+From a policy perspective, it is useful to analyze emissions in terms of
+the [Kaya Identity](https://en.wikipedia.org/wiki/Kaya_identity):
+$$
+\\text{Emissions} = \\text{Population} \\times 
+\\frac{\\text{GDP}}{\\text{Population}} \\times
+\\frac{\\text{Energy}}{\\text{GDP}} \\times
+\\frac{\\text{Emissions}}{\\text{Energy}}.
+$$
+ There is nothing magic about this: If you cancel terms that appear on
+both the top and bottom of the fractions, it says nothing more than
+Emissions = Emissions. However, the identity is useful for thinking
+about policy because each of the terms multiplied together is something
+that has direct relevance, so let’s assign each a symbol:
+$$
+\\begin{aligned}
+g &= \\frac{\\text{GDP}}{\\text{Population}} = \\text{per-capita GDP}\\\\
+e &= \\frac{\\text{Energy}}{\\text{GDP}} = \\text{energy intensity of the economy}\\\\
+f &= \\frac{\\text{Emissions}}{\\text{Energy}} = \\text{carbon intensity of the energy supply}.
+\\end{aligned}
+$$
+ Now, we can write the identity as
+*F* = *P* × *g* × *e* × *f*,
+ where *F* stands for total emissions, *P* stands for population, and
+*g*, *e*, and *f* are defined by the equations above. Roger Pielke,
+Jr.’s book, *The Climate Fix* has a very clear explanation of this in
+Chapter 3.
+
+This way of looking at emissions is useful for policymakers because
+trying to directly control population is both morally questionable (I
+would go much farther and say that I would find attempts by governments
+or others to forcibly control population to be a horrifying violation of
+people’s basic rights, and especially women’s rights to autonomy over
+their bodies).
+
+It would also be politically unfeasible and morally questionable at best
+to try to reduce per-capita GDP, which essentially would mean making
+people poorer on average.
+
+From a policy perspective, it is not feasible nor desirable to try to
+reduce people’s wealth or coerce their reproductive choices.
+
+Thus, climate policy must focus on the last two terms: Improving energy
+efficiency can reduce the energy intensity of the economy and switching
+from carbon-intensive energy sources, such as coal, to less
+carbon-intensive sources, such as nuclear or renewable energy, can
+reduce the carbon-intensity of the energy supply. Reducing *e* (energy
+intensity) and *f* (carbon intensity) can reduce emissions without
+reducing either population or per-capita GDP.
+
+Thus, feasible climate policy focuses on ways to reduce energy and
+carbon intensity.
+
+Comparing Observed and Implied Rates of Decarbonization
+-------------------------------------------------------
+
+In 2008, Roger Pielke, Jr., Tom Wigley, and Christopher Green
+(“[Dangerous
+Assumptions](https://pdfs.semanticscholar.org/afdc/e9bfa0fb51768394407d086cdeb5e9f77207.pdf),”
+*Nature* **452**, 531 (2008)) compared the observed rate of change of
+energy and carbon intensity in the years 2000–2005 to the rates of
+change implied by the SRES scenarios. They observed that most of the
+scenarios assumed that even without any specific climate policies, the
+world’s economy would steadily become more energy efficient and less
+carbon-intensive. However, they pointed out, between 2000 and 2005 the
+opposite happened: the world’s economy became both *more* energy
+intensive and *more* carbon intensive.
+
+![Assumed versus observed decarbonization rates, from Pielke *et al.*,
+“[Dangerous
+Assumptions](https://pdfs.semanticscholar.org/afdc/e9bfa0fb51768394407d086cdeb5e9f77207.pdf)”](img/pielke_assumed_decarbonization.jpg)
+
+If there is a fairly rapid rate of “spontaneous decarbonization” in the
+absence of climate policy, then making climate policy is relatively
+easy, because it only has to make modest changes to something that’s
+happening already:
+
+![Under the IPCC’s SRES scenarios, spontaneous decarbonization (blue
+bars) does most of the hard work and climate policy only needs to add a
+small amount of additional decarbonization (red bars). However, if
+spontaneous decarbonization falls short of the predicted blue bars, then
+the policy task is harder. From Pielke *et al.*, “[Dangerous
+Assumptions](https://pdfs.semanticscholar.org/afdc/e9bfa0fb51768394407d086cdeb5e9f77207.pdf)”](img/pielke_cumulative_emissions.jpg)
+
+However, Pielke, Wigley, and Green found that the spontaneous
+decarbonization rate was much smaller than the IPCC expected, and
+emphasized that this implied that the policy challenge was much more
+difficult than expected.
+
+More recently, Samantha Stevenson and Roger Pielke, Jr. (“[Assumptions
+of Spontaneous Decarbonization in the IPCC AR5 Baseline
+Scenarios](https://pdfs.semanticscholar.org/0aef/69f0117b6f4e1d2926e1acaa6db7af963924.pdf)”)
+conducted a similar analysis of the “[Representative Concentration
+Pathways](https://skepticalscience.com/rcp.php?t=1)” (RCPs), which were
+published in 2011. Unlike the SRES scenarios, the RCPs are policy-active
+pathways in which government action, such as imposing a price on
+greenhouse gas emissions, is used to reduce emissions. In their
+analysis, Stevenson and Pielke compared the observed global emissions
+between 2000 and 2008 to the baseline pathways corresponding to the RCPs
+(the baseline pathways are the trajectories of greenhouse gas emissions
+the RCP authors assumed would occur if there were no climate policies in
+effect). Stevenson and Pielke found that, just as with the SRES
+scenarios, the baseline emissions trajectories assumed far greater
+spontaneous decarbonization than actually occurred.
+
+Problems with the Previous Analyses
+-----------------------------------
+
+An important problem that the analyses by Pielke, Wigley, & Green and
+Stevenson & Pielke face is that they compared the scenarios to observed
+trends during the years 2000–2005 and 2000–2008, respectively.  
+This may not have been the best choice. World energy and carbon
+intensity steadily declined from 1980–2000 and then suddenly jumped for
+several years starting around 2002, which corresponded to a period of
+tremendous economic growth in China.
 
 ``` r
-get_kaya_data("World") %>% 
+get_kaya_data("World") %>% filter(year >= 1980) %>%
   plot_kaya("f", y_lab = expression(paste(MMT * CO[2] / quad)), log_scale = TRUE,
             start_year = 2000, stop_year = 2008) +
   labs(title = "Carbon intensity of world energy supply") +
-  scale_y_log10(breaks = seq(62, 78, 4))
+  scale_y_log10(breaks = seq(62, 78, 4)) +
+  theme_bw(base_size = 15)
 ```
 
-![Trend of carbon intensity, with 2000–2008
-highlighted.](assumptions_files/figure-markdown_github/carbon_plot-1.png)
+![Trend of global carbon intensity, with 2000–2008
+highlighted.](assumptions_files/figure-markdown_github/world-carbon-plot-1.png)
 
-Thus, taking the observed trend from 2005–2016 both better matches the
-period in which we are calculating implied decarbonization trends for
-the first 15 years of the RCP scenarios and also is more comparable to
-the broader historical trend.
+``` r
+get_kaya_data("World") %>% filter(year >= 1980) %>%
+  plot_kaya("e", y_lab = "quad / $ trillion", log_scale = TRUE,
+            start_year = 2000, stop_year = 2008) +
+  labs(title = "Energy intensity of world economy") +
+  scale_y_log10(breaks = seq(6, 11, 2)) +
+  theme_bw(base_size = 15)
+```
+
+![Trend of global energy intensity, with 2000–2008
+highlighted.](assumptions_files/figure-markdown_github/world-energy-plot-1.png)
+
+China’s growth was fueled by a rapid expansion of energy consumption,
+and both factories and generating plants were very inefficient, and were
+largely fueled by coal. This drove both the energy intensity of China’s
+economy and the carbon intensity of its energy supply through the roof,
+and this appears to have played a large role in reversing for several
+years the global trend of declining energy and carbon intensity. Around
+2007 or so, China’s energy and carbon intensity began to fall again and
+the world energy and carbon intensity fell along with it.
+
+``` r
+get_kaya_data("China") %>% filter(year >= 1980) %>%
+  plot_kaya("f", y_lab = expression(paste(MMT * CO[2] / quad)), log_scale = TRUE,
+            start_year = 2000, stop_year = 2008) +
+  labs(title = "Carbon intensity of China's energy supply") +
+  scale_y_log10(breaks = seq(75, 95, 5)) +
+  theme_bw(base_size = 15)
+```
+
+![Trend of China’s carbon intensity, with 2000–2008
+highlighted.](assumptions_files/figure-markdown_github/china-carbon-plot-1.png)
+
+Note the very rapid decline in carbon intensity beginning in 2010.
+
+``` r
+get_kaya_data("China") %>% filter(year >= 1980) %>%
+  plot_kaya("e", y_lab = "quad / $ trillion", log_scale = TRUE,
+            start_year = 2000, stop_year = 2008) +
+  labs(title = "Energy intensity of China's economy") +
+  scale_y_log10(breaks = seq(10, 60, 10)) +
+  theme_bw(base_size = 15)
+```
+
+![Trend of China’s energy intensity, with 2000–2008
+highlighted.](assumptions_files/figure-markdown_github/china-energy-plot-1.png)
+
+And here are the trends for the whole world *except* China:
+
+``` r
+china <- get_kaya_data("China") %>% select(year, G, E, F)
+world <- get_kaya_data("World") %>% select(year, G, E, F)
+
+mix <- world %>% full_join(china, by = "year", suffix = c(".world", ".china")) %>% 
+  mutate(G = G.world - G.china, E = E.world - E.china, F = F.world - F.china) %>% 
+  mutate(e = E / G, f = F / E) %>% select(year, e, f) %>% 
+  filter(year >= 1980)
+
+  plot_kaya(mix, "f", y_lab = expression(paste(MMT * CO[2] / quad)), log_scale = TRUE,
+            start_year = 2000, stop_year = 2008) +
+  labs(title = "Carbon intensity of rest of world") +
+  scale_y_log10(breaks = seq(50, 70, 5)) +
+  theme_bw(base_size = 15)
+```
+
+![Trend of carbon intensity for the world except China, with 2000–2008
+highlighted.](assumptions_files/figure-markdown_github/not-china-carbon-plot-1.png)
+
+``` r
+  plot_kaya(mix, "e", y_lab = "quad / $ trillion", log_scale = TRUE,
+            start_year = 2000, stop_year = 2008) +
+  labs(title = "Energy intensity of rest of world") +
+  scale_y_log10(breaks = seq(5, 10, 1)) +
+  theme_bw(base_size = 15)
+```
+
+![Trend of energy intensity for the world except China, with 2000–2008
+highlighted.](assumptions_files/figure-markdown_github/not-china-energy-plot-1.png)
+
+An alternative analysis of the RCP scenarios, which takes the observed
+trend from 2005–2016, seems more sensible, both because it better
+matches the period in which we are calculating the implied
+decarbonization trends (the first 15 years of the RCP scenarios, from
+2005–2020), and also because it avoids the anomalous temporary reversal
+of the historical trend from approximately 2002–2005.
 
 Methods
 =======
 
 To calculate carbon intensity and energy intensity, we need economic
-data for the scenarios, so to make things simple, we use the GCAM
-simulations of the RCPs (<http://www.globalchange.umd.edu/gcamrcp/>,
-with the data file
-<http://www.globalchange.umd.edu/data/rcp/GCAMRCPData.xls>). These are
-not identical to the official RCP data, but present reasonable scenarios
-that produce very close to the same emissions pathways, calculated
-within a consistent macroeconomic model of regional economies and energy
-use.
+data for the scenarios, so to make things simple, we use the [GCAM
+simulations of the RCPs](http://www.globalchange.umd.edu/gcamrcp). These
+are not identical to the official RCP data, but present reasonable
+scenarios that produce emissions trajectories very close to the RCPs.
+The GCAM versions of the pathways are calculated within a consistent
+macroeconomic model of regional economies and energy use, and thus
+facilitate comparisons of energy and carbon intensities.
 
 Read GCAM Scenarios
 -------------------
@@ -84,7 +285,7 @@ for(s in c('gcam_26', 'rcp_45', 'gcam_60', 'gcam_85', 'gcam_ref', 'gcam_by_secto
   get(s) %>% process_scenario() %>% assign(x = s, value = ., pos = globalenv())
 }
 
-all_scenarios <- rbind(gcam_26, rcp_45, gcam_60, gcam_85)
+all_scenarios <- rbind(gcam_26, rcp_45, gcam_60, gcam_85, gcam_ref)
 
 #
 # There are lots of variables. We're interested in the Kaya ones, so filter
@@ -99,14 +300,14 @@ gcam_scenarios <- all_scenarios %>%
   mutate(variable = str_replace_all(variable, c("_.*$" = "", "^population" = "P",
                                                 "^gdp" = "G", "^primary" = "E",
                                                 "^emissions" = "F")),
-         scenario = str_replace_all(scenario, "(GCAM|RCP)([0-9])", "\\1 \\2")) %>%
+         scenario = str_replace_all(scenario, "(GCAM|RCP)([0-9]|Reference)", "\\1 \\2")) %>%
   group_by(scenario, variable, year) %>% summarize(value = sum(value)) %>% ungroup()
 ```
 
 Observed Historical Data
 ------------------------
 
-We get historical emissions data from the 2017 BP Statisical Review of
+We get historical emissions data from the 2017 BP Statistical Review of
 World Energy and historical economic data from the World Bank. For
 convenience, we have already calculated these in the `kayadata` package,
 so we use that.
@@ -125,10 +326,10 @@ the total carbon dioxide emissions, and *G* is the gross world product.
 
 Fractional growth rates are given by
 $$
-\\begin{align\*}
+\\begin{aligned}
 r\_e &= \\frac{\\text{d} \\ln e}{\\text{d}t} \\\\
 r\_f &= \\frac{\\text{d} \\ln f}{\\text{d}t}
-\\end{align\*}
+\\end{aligned}
 $$
 
 We implied rates under RCP and GCAM scenarios from 2005–2020 and we
@@ -166,32 +367,37 @@ rates over the same time frame.
 
 ``` r
 rcp_scales <- tribble(
-  ~scenario, ~order, ~break_order, ~shape, ~size,
-  "Historical", 2, 1, 18, 5,
-  "GCAM 8.5",   1, 2, 16, 3,
-  "GCAM 6.0",   3, 3, 16, 3,
-  "RCP 4.5",    4, 4, 16, 3,
-  "GCAM 2.6",   5, 5, 16, 3
-  ) %>% arrange(order) %>% mutate(scenario = factor(scenario))
+  ~scenario, ~order, ~break_order, ~shape, ~size, ~nx, ~ny,
+  "Historical",     3, 1, 18, 5,  0,    0.05,
+  "GCAM Reference", 1, 2, 16, 3,  0,    0.05,
+  "GCAM 8.5",       2, 3, 16, 3,  0,    0.05,
+  "GCAM 6.0",       4, 4, 16, 3, -0.02, 0.02,
+  "RCP 4.5",        5, 5, 16, 3,  0,    0.05,
+  "GCAM 2.6",       6, 6, 16, 3,  0,    0.05
+  ) %>% arrange(order) %>% mutate(scenario = ordered(scenario, levels = scenario))
   
 
-rcp_levels <- rcp_scales %>% arrange(order) %>% select(scenario) %>% simplify() %>% unname()
+rcp_levels <- levels(rcp_scales$scenario)
 rcp_breaks <- rcp_scales %>% arrange(break_order) %>% select(scenario) %>% simplify() %>% unname()
 rcp_shapes <- rcp_scales %>% arrange(order) %>% select(scenario, shape) %>% 
   spread(key = scenario, value = shape) %>% simplify()
 rcp_sizes  <- rcp_scales %>% arrange(order) %>% select(scenario, size) %>% 
   spread(key = scenario, value = size) %>% simplify()
 
-rate_plot <- rates %>%
+r <- rates %>%
   mutate(scenario = ordered(scenario, levels = rcp_levels)) %>%
-  ggplot(aes(x = 100 * r.e, y = 100 * r.f, color = scenario, shape = scenario, 
-             size = scenario)) +
-  geom_hline(size = 1, color = "dark gray", yintercept = 0.0) +
-  geom_vline(size = 1, color = "dark gray", xintercept = 0.0) +
+  left_join(rcp_scales %>% select(scenario, nx, ny), by = "scenario")
+rate_plot <-  ggplot(r, aes(x = 100 * r.f, y = 100 * r.e, color = scenario, 
+                            shape = scenario, size = scenario)) +
+  geom_hline(size = 1, color = "gray70", yintercept = 0.0) +
+  geom_vline(size = 1, color = "gray70", xintercept = 0.0) +
   geom_point() +
-  geom_text(aes(label = scenario), color = "black", size = 4, check_overlap = TRUE, 
-            hjust = 0, nudge_x = 0.05) +
-  labs(x = "Energy Intensity rate (%/year)", y = "Carbon Intensity rate (%/year)")  +
+  geom_text_repel(aes(label = scenario, nudge_x = nx, nudge_y = ny), 
+            color = "black", size = 4, 
+            box.padding = 0.4) +
+  labs(y = expression(paste(Delta, " Energy Intensity of GDP (%/year)")), 
+       x = expression(paste(Delta, "Carbon Intensity of Energy (%/year)")))  +
+  scale_x_continuous(expand = c(0, 0.125)) +
   scale_color_brewer(palette = "Dark2", breaks = rcp_breaks, direction = -1, 
                      name = "Scenario", guide = "none") +
   scale_shape_manual(values = rcp_shapes, breaks = rcp_breaks, name = "Scenario", 
@@ -201,7 +407,92 @@ rate_plot <- rates %>%
   coord_fixed(ratio = 1) +
   theme_bw(base_size = 15)
 
-print(rate_plot)
+rate_plot
 ```
 
-![](assumptions_files/figure-markdown_github/plot_data-1.png)
+![Observed vs. implied rates of decarbonization. RCP and GCAM rates are
+for 2005–2020 and Historical rate is for
+2005–2016.](assumptions_files/figure-markdown_github/plot-data-1.png)
+
+``` r
+rates %>% mutate(scenario = ordered(scenario, levels = rcp_breaks),
+                 r.ef = r.e + r.f) %>%
+  arrange(scenario) %>%
+  select(scenario, r.ef) %>% mutate(`Decarbonization rate`=sprintf("%.1f%%", 100 * r.ef)) %>%
+  select(Scenario = scenario, `Decarbonization rate`) %>%
+  kable(align = 'cc', caption = "Observed and implied total global decarbonization rates")
+```
+
+|    Scenario    | Decarbonization rate |
+|:--------------:|:--------------------:|
+|   Historical   |         -1.0%        |
+| GCAM Reference |         -0.8%        |
+|    GCAM 8.5    |         -0.1%        |
+|    GCAM 6.0    |         -0.9%        |
+|     RCP 4.5    |         -1.2%        |
+|    GCAM 2.6    |         -2.3%        |
+
+Conclusions
+===========
+
+In contrast to the previous work, using the last 8 years of observed
+data on energy and carbon intensity, the world appears to currently be
+headed along a trajectory is decarbonizing slightly faster than both the
+RCP 4.5 reference scenario and the RCP 6.0 policy scenario, and which
+not too far behind the early years of RCP 4.5 policy scenario (see Table
+@ref(tab:rate-table)).
+
+Thus, the challenge of getting from the current trajectory to the RCP
+4.5 policy trajectory seems actually to be a bit smaller than
+anticipated. This is very different from the conclusions of Pielke,
+Wigley, & Green and Stevenson & Pielke, and presents a much more
+optimistic picture than those analyses do.
+
+Of course, the big cuts in the RCP 4.5 pathway occur in the future, so
+we should not take this as license for complacency. Much of the
+acceleration of decarbonization has been driven by the unexpected
+fracking revolution, which dramatically reduced the price of natural gas
+and thus stimulated a massive shift from coal to gas in electrical
+generation. Sustaining a long-term decarbonization trend will require a
+similar revolution in clean energy sources (nuclear and renewables) to
+replace gas.
+
+Moreover, the anomalous reversal of spontaneous global decarbonization
+in the early 2000s may be repeated if other developing countries
+experience rapid industrialization and economic growth. This could
+happen in India and among African nations.
+
+Nonetheless, if we consider that this analysis compares the observed
+*spontaneous* decarbonization rate (with no major climate policies) over
+the last eleven years to the decarbonization rates implied by the
+policy-regimes of the different RCP policy regimes, and if we also
+recognize that RCP 4.5 gives
+<a href="http://www.nature.com/articles/nclimate1385" target="_blank">roughly 80% probability of keeping warming below 3.0°C</a>,
+then this makes it much more plausible that we have time to avoid
+catastrophic damage.
+
+This analysis also highlights challenges with respect to energy
+efficiency: the carbon intensity of the world’s energy supply has
+dropped much faster than either the baseline or any of the policy
+scenarios except GCAM 2.6. However, the energy intensity of the world’s
+economy has lagged far behind the reference scenario and all of the
+serious policy scenarios (the exception, GCAM 8.5 may be seen as
+reflecting perverse policies that encourage energy consumption and the
+use of coal). This is true at the global scale and also apparent for
+China, as shown in figures @ref(fig:china-carbon-plot) and
+@ref(fig:china-energy-plot).
+
+This is consistent with many experts’ views that policy measures will be
+more effective at reducing carbon intensity by promoting inexpensive
+clean energy sources than at slowing or reversing the growth of energy
+demand. However, one could also interpret this as a failure by both
+governments and markets to provide
+<a href="/files/pubs/pdfs/stern_2010_design_principles.pdf" target="_blank">behaviorally effective incentives</a>
+and opportunities for businesses and households to implement available
+energy-efficiency measures. Michael Vandenbergh and I argue for the
+latter interpretation in our recent book,
+<a href="https://beyondpoliticsbook.com" target="_blank"><em>Beyond Politics</em></a>,
+where we present evidence that there is a large efficiency gap both in
+households and in businesses, and that there are significant
+opportunities to reduce emissions while saving money by systematically
+pursuing inefficiencies.
